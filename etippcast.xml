@@ -1,12 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
-    <channel>
-        <title>Debt Now App - Appcast</title>
-        <item>
-            <title>Version 1.15.0</title>
-            <description>Minor updates and improvements.</description>
-            <pubDate>Sun, 30 Dec 2018 12:00:00 +0000</pubDate>
-            <enclosure url="https://play.google.com/store/apps/details?id=com.moonwink.treasury" sparkle:version="1.15.0" sparkle:os="android" />
-        </item>
-    </channel>
+<rss
+  version="2.0"
+  xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+
+  <channel>
+    <title>Etisalat Group App - Appcast</title>
+    <link>https://play.google.com/store/apps/details?id=com.pioneers.etisalatgroub</link>
+    <description>Official update feed for Etisalat Group Android App</description>
+    <language>en</language>
+
+    <item>
+      <title>Version 1.15.0</title>
+
+      <description>
+        <![CDATA[
+        • Performance improvements<br/>
+        • Bug fixes<br/>
+        • UI enhancements
+        ]]>
+      </description>
+
+      <pubDate>Sun, 30 Dec 2018 12:00:00 +0000</pubDate>
+
+      <link>
+        https://play.google.com/store/apps/details?id=com.pioneers.etisalatgroub
+      </link>
+
+      <enclosure
+        url="https://play.google.com/store/apps/details?id=com.pioneers.etisalatgroub"
+        sparkle:version="1.15.0"
+        sparkle:os="android"
+        type="text/html" />
+    </item>
+
+  </channel>
 </rss>
