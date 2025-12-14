@@ -1,28 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0"
      xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+
   <channel>
     <title>Debt Now App - Appcast</title>
+    <language>en</language>
 
     <item>
       <title>Version 1.15.0</title>
+      <sparkle:version>1150</sparkle:version> <!-- internal machine-readable -->
+      <sparkle:shortVersionString>1.15.0</sparkle:shortVersionString> <!-- human-readable -->
 
-      <description>
-         هذا التحديث إجباري للاستمرار في استخدام التطبيق.
-        الرجاء التحديث إلى أحدث إصدار.
-      </description>
+      <sparkle:releaseNotesLink>
+        https://example.com/release_notes/1.15.0.html
+      </sparkle:releaseNotesLink>
 
-      <pubDate>Sun, 30 Dec 2018 12:00:00 +0000</pubDate>
+      <pubDate>Sun, 14 Dec 2025 12:00:00 +0000</pubDate>
+      <link>https://play.google.com/store/apps/details?id=com.moonwink.treasury</link>
 
-      <!-- Forced Update -->
-      <sparkle:version>1.15.0</sparkle:version>
+      <!-- Forced / Critical Update -->
       <sparkle:minimumSystemVersion>1.15.0</sparkle:minimumSystemVersion>
-      <sparkle:criticalUpdate>true</sparkle:criticalUpdate>
+      <sparkle:criticalUpdate />  <!-- تحديث إجباري -->
 
       <enclosure
-        url="https://play.google.com/store/apps/details?id=com.pioneers.etisalatgroub"
-        sparkle:os="android" />
+        url="https://play.google.com/store/apps/details?id=com.moonwink.treasury"
+        sparkle:edSignature="SIGNATURE_HERE"
+        length="12345678"
+        type="application/octet-stream"/>
     </item>
-
   </channel>
+
 </rss>
