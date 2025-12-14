@@ -15,7 +15,7 @@
       <pubDate>Sun, 30 Dec 2018 12:00:00 +0000</pubDate>
 
       <!-- Forced Update -->
-      <sparkle:version>1.15.0</sparkle:version>
+      <sparkle:version>1.0.15</sparkle:version>
       <sparkle:minimumSystemVersion>1.15.0</sparkle:minimumSystemVersion>
       <sparkle:criticalUpdate>true</sparkle:criticalUpdate>
 
