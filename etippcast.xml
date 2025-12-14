@@ -20,8 +20,7 @@
 
       <!-- Forced / Critical Update -->
       <sparkle:minimumSystemVersion>1.15.0</sparkle:minimumSystemVersion>
-      <sparkle:criticalUpdate />  <!-- تحديث إجباري -->
-
+      <sparkle:criticalUpdate />  
       <enclosure
         url="https://play.google.com/store/apps/details?id=com.moonwink.treasury"
         sparkle:edSignature="SIGNATURE_HERE"
