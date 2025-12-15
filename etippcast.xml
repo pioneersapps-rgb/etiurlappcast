@@ -5,7 +5,7 @@
     <title>Debt Now App - Appcast</title>
 
     <item>
-      <title>Version 1.15.0</title>
+      <title>Version 1.50.0</title>
 
       <description>
          هذا التحديث إجباري للاستمرار في استخدام التطبيق.
@@ -15,8 +15,8 @@
       <pubDate>Sun, 30 Dec 2018 12:00:00 +0000</pubDate>
 
       <!-- Forced Update -->
-      <sparkle:version>1.0.15</sparkle:version>
-      <sparkle:minimumSystemVersion>1.15.0</sparkle:minimumSystemVersion>
+      <sparkle:version>1.0.50</sparkle:version>
+      <sparkle:minimumSystemVersion>1.0.50</sparkle:minimumSystemVersion>
       <sparkle:criticalUpdate>true</sparkle:criticalUpdate>
 
       <enclosure
