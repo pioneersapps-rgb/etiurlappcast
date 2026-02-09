@@ -22,7 +22,7 @@
       <!-- iOS-specific update link -->
       <enclosure
         url="https://apps.apple.com/us/app/%D8%A7%D8%AA%D8%B5%D8%A7%D9%84%D8%A7%D8%AA-%D8%AC%D8%B1%D9%88%D8%A8/id6740021578"
-        sparkle:os="osx" />
+        sparkle:os="ios" />
     </item>
 
   </channel>
